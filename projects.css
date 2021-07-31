@@ -1,0 +1,151 @@
+html {
+  font-size: 62.5%;
+}
+@media (max-width: 75em) {
+  html {
+    font-size: 56.25%;
+  }
+}
+@media (max-width: 56.25em) {
+  html {
+    font-size: 50%;
+  }
+}
+@media (min-width: 112.5em) {
+  html {
+    font-size: 75%;
+  }
+}
+
+body,
+html {
+  overflow-x: hidden;
+}
+
+#profile-in-navbar {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  transform: rotate(-5deg);
+  margin-bottom: 5px;
+}
+
+#mainNavbar {
+  font-size: 1.5rem;
+  font-weight: 100;
+  visibility: visible;
+  background-color: rgba(8, 28, 76, 0.8);
+  color: #fff;
+}
+
+@media (min-width: 768px) {
+  .navbar-collapse {
+    margin-left: 30px;
+  }
+}
+
+#ryan {
+  font-size: 20px;
+  font-weight: 500;
+  color: #fff;
+  margin-left: 10px;
+}
+
+.justify-content-end {
+  font-size: 15px;
+  font-weight: 350px;
+  margin-right: 25px;
+}
+
+#mainNavbar .nav-link {
+  color: white;
+  font-weight: 500;
+  padding-left: 10px;
+  padding-top: 5px;
+}
+
+#mainNavbar .nav-link:hover {
+  color: #ea1c2c;
+  font-weight: 300;
+}
+
+#mainNavbar.scrolled {
+  visibility: visible;
+  background-color: rgba(8, 28, 76, 0.8);
+  color: #fff;
+  transition: background 1000ms;
+}
+
+.heading {
+  padding-top: 10rems;
+  text-align: center;
+}
+
+.introduction {
+  padding-top: 10rem;
+  padding-bottom: 1rem;
+  transform: translateX(-50%);
+  position: relative;
+  left: 50%;
+  width: 80%;
+}
+
+.header3 {
+  font-size: 3rem;
+}
+.info {
+  font-size: 1.5rem;
+}
+.footer {
+  background-color: rgba(8, 28, 76, 0.9);
+  padding: 2rem 0;
+  font-size: 1.4rem;
+  width: 100%;
+  bottom: 0%;
+}
+@media (max-width: 56.25em) {
+  .footer {
+    padding: 5rem 0;
+  }
+}
+.footer__nav {
+  padding-top: 2rem;
+  display: inline-block;
+}
+@media (max-width: 56.25em) {
+  .footer__nav {
+    width: 100%;
+    text-align: center;
+  }
+}
+.footer__list {
+  list-style: none;
+}
+
+.footer__item {
+  display: inline-block;
+  text-align: center;
+}
+.footer__item:not(:last-child) {
+  margin-right: 1.5rem;
+}
+.footer__link:link,
+.footer__link:visited {
+  color: #f1f1f1;
+  /* background-color: #4c5f9a; */
+  text-decoration: none;
+  text-transform: uppercase;
+  display: inline-block;
+  transition: all 0.2s;
+  text-align: center;
+}
+.footer__link:hover,
+.footer__link:active {
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.4);
+  transform: rotate(1deg) scale(1.1);
+}
+
+.footer-name-ryan {
+  margin-left: 1vh;
+  text-align: center;
+}

@@ -1,0 +1,334 @@
+/* ----------- LET'S TALK ABOUT BEING RESPONSI(VENESS)BILITY ----------- */
+html {
+  font-size: 62.5%;
+}
+
+@media (min-width: 112.5em) {
+  html {
+    font-size: 75%;
+  }
+}
+
+@media (max-width: 75em) {
+  html {
+    font-size: 56.25%;
+  }
+}
+
+@media (max-width: 56.25em) {
+  html {
+    font-size: 50%;
+  }
+}
+
+body,
+html {
+  overflow-x: hidden !important;
+}
+/* ----------- LET'S TALK ABOUT BEING RESPONSI(VENESS)BILITY ----------- */
+/* ----------- iPhone 6, 6S, 7 and 8 ----- START ----------- */
+/* Portrait */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  body,
+  html {
+    width: 100%;
+    overflow-x: hidden;
+  }
+}
+
+/* Landscape */
+/* @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+} */
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----- END ----------- */
+/* ----------- HEADER ANIMATION -----------> */
+@keyframes leftIn {
+  0% {
+    opacity: 0;
+    transform: translateX(-5rem);
+  }
+  80% {
+    transform: translateX(0.5rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+@keyframes rightIn {
+  0% {
+    opacity: 0;
+    transform: translateX(5rem);
+  }
+  80% {
+    transform: translateX(-0.5rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(5);
+  }
+}
+
+@keyframes bottomIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-5rem);
+  }
+  80% {
+    opacity: 0;
+    transform: translateY(0.5rem);
+  }
+  100% {
+    opacity: 10;
+    transform: skewX(-5deg);
+  }
+}
+/* ----------- HEADER ANIMATION END -----------> */
+/* ----------- SECTION 1 ------ HEADER -----------> */
+#header {
+  height: 99vh;
+  background-image: url("https://img.itch.zone/aW1hZ2UvNTA4MzgwLzI2MzY1NTAuZ2lm/original/xtkEQm.gif");
+  background-size: cover;
+  position: static;
+}
+
+.heading-text {
+  color: #fff;
+  text-shadow: 1px 1px 20px black;
+  position: static;
+}
+
+.header-name {
+  line-height: 1.5;
+  display: block;
+  font-size: 6.5rem;
+  font-weight: 350;
+  letter-spacing: 0.5rem;
+  animation: leftIn 0.8s ease-out;
+  position: static;
+}
+
+.header-title {
+  display: block;
+  font-size: 2.2rem;
+  font-weight: 350;
+  animation: rightIn 0.8s ease-out;
+}
+
+.btn--animated {
+  animation: bottomIn 0.8s ease-out;
+  animation-fill-mode: backwards;
+}
+
+.header-content {
+  text-align: center;
+  position: static;
+
+  left: 50%;
+  transform: translate(0, 50%);
+}
+
+#button {
+  text-transform: uppercase;
+  padding: 1.5rem 3rem;
+  display: inline-block;
+  border-radius: 10rem;
+  font-size: 3.6;
+  font-weight: 700;
+  background-color: #fff;
+  color: black;
+}
+
+#button:hover {
+  transform: translateY(-0.5rem);
+  box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.21);
+}
+/* ----------- SECTION 1 ----- HEADER -----------> */
+/* ----------- SECTION 2 -----------> */
+#about {
+  background-color: #f9f9f9;
+  padding-top: 5rem;
+  padding-bottom: 15rem;
+  text-align: center;
+}
+
+.heading-third {
+  font-size: 5rem;
+}
+.heading-fourth {
+  font-size: 3.5rem;
+}
+
+.info {
+  text-align: center;
+  font-size: 2.5rem;
+  margin: auto;
+  width: 70% !important;
+}
+/* ----------- SECTION 2 -----------> */
+/* ----------- SECTION 3 -- CHICAGO LANDSCAPE -----------> */
+#section3 {
+  height: 90vh;
+  padding: 3rem 3rem;
+  width: 80hv;
+  padding: 20rem 0;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(46, 64, 122, 0.25),
+      rgba(210, 34, 69, 0.25)
+    ),
+    url("https://images.unsplash.com/photo-1581373449483-37449f962b6c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2100&q=80");
+  background-size: cover;
+  margin-top: -10rem;
+  transform: skewY(-5deg);
+}
+/* ----------- SECTION 3 -- CHICAGO LANDSCAPE -----------> */
+/* ----------- SECTION 4 -----------> */
+
+.profile-projects {
+  color: rgba(8, 28, 76, 0.8);
+  font-weight: 800;
+  font-size: 7rem;
+  text-align: center;
+  padding: 3rem;
+}
+
+.profile-projects:hover {
+  transform: translateY(-0.5rem);
+  text-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.21);
+}
+
+.cards-to-play {
+  padding: 5rem;
+}
+
+.col {
+  padding: 2rem;
+}
+
+.card-img-top {
+  width: 350px;
+  height: 300px;
+}
+
+@media (max-width: 62em) {
+  .card-img-top {
+    width: 250px;
+    height: 250px;
+  }
+}
+.card-body,
+.card-footer {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.card-title {
+  font-size: 3rem;
+}
+
+.card-1:hover,
+.card-2:hover,
+.card-3:hover {
+  transform: translateY(-0.2rem);
+  box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.21);
+}
+/* ----------- SECTION 4 -----------> */
+/* ----------- NAVIGATION BAR -----------> */
+
+#profile-in-navbar {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  transform: rotate(-5deg);
+  margin-bottom: 5px;
+}
+
+#mainNavbar {
+  font-size: 1.5rem;
+  font-weight: 100;
+  visibility: hidden;
+}
+
+#ryan {
+  font-size: 20px;
+  font-weight: 500;
+  color: #fff;
+  margin-left: 10px;
+}
+
+.justify-content-end {
+  font-size: 15px;
+  font-weight: 350px;
+  margin-right: 25px;
+}
+
+#mainNavbar .nav-link {
+  color: white;
+  font-weight: 500;
+  padding-left: 10px;
+  padding-top: 5px;
+}
+
+#mainNavbar .nav-link:hover {
+  transform: translateY(-0.3rem);
+  text-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.21);
+  color: #ea1c2c;
+  font-weight: 700;
+}
+
+#ryan:hover {
+  transform: translateY(-0.2rem);
+}
+
+#mainNavbar.scrolled {
+  visibility: visible;
+  background-color: rgba(8, 28, 76, 0.8);
+  color: #fff;
+  transition: background 1000ms;
+}
+/* ----------- NAVIGATION BAR -----------> */
+/* ----------- FOOTER -----------> */
+.footer {
+  background-color: rgba(8, 28, 76, 0.9);
+  padding: 2rem 0;
+  font-size: 1.4rem;
+  width: 100%;
+  height: 100%;
+  bottom: 0;
+}
+
+.footer__nav {
+  padding-top: 2rem;
+  display: inline-block;
+  text-align: center;
+}
+
+.footer__item {
+  display: inline-block;
+  text-align: center !important;
+  margin-bottom: -2rem;
+}
+.footer__item:not(:last-child) {
+  margin-right: 1.5rem;
+}
+.footer__link:link,
+.footer__link:visited {
+  color: #f1f1f1;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: inline-block;
+  transition: all 0.2s;
+  text-align: center;
+}
+.footer__link:hover,
+.footer__link:active {
+  text-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.4);
+  transform: rotate(1deg) scale(1.1);
+}
+
+.footer-name-ryan {
+  text-align: center;
+}
+/* ----------- FOOTER -----------> */
