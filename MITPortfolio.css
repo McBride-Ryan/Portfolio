@@ -87,7 +87,7 @@ html {
 /* ----------- HEADER ANIMATION END -----------> */
 /* ----------- SECTION 1 ------ HEADER -----------> */
 #header {
-  height: 99vh;
+  height: 99.5vh;
   background-image: url("https://img.itch.zone/aW1hZ2UvNTA4MzgwLzI2MzY1NTAuZ2lm/original/xtkEQm.gif");
   background-size: cover;
   position: static;
@@ -124,9 +124,8 @@ html {
 .header-content {
   text-align: center;
   position: static;
-
   left: 50%;
-  transform: translate(0, 50%);
+  transform: translateY(100%);
 }
 
 #button {
@@ -147,7 +146,9 @@ html {
 /* ----------- SECTION 1 ----- HEADER -----------> */
 /* ----------- SECTION 2 -----------> */
 #about {
-  background-color: #f9f9f9;
+  /* TEST COLOR!! */
+  /* background-color: #6f6969; */
+  background-color: #f0f0f0;
   padding-top: 5rem;
   padding-bottom: 15rem;
   text-align: center;
@@ -155,9 +156,11 @@ html {
 
 .heading-third {
   font-size: 5rem;
+  font-weight: 600;
 }
 .heading-fourth {
   font-size: 3.5rem;
+  font-weight: 600;
 }
 
 .info {
@@ -165,14 +168,15 @@ html {
   font-size: 2.5rem;
   margin: auto;
   width: 70% !important;
+  font-weight: 500;
 }
+/* .paragraph-third {
+  width: 60% !important;
+} */
 /* ----------- SECTION 2 -----------> */
 /* ----------- SECTION 3 -- CHICAGO LANDSCAPE -----------> */
 #section3 {
-  height: 90vh;
-  padding: 3rem 3rem;
-  width: 80hv;
-  padding: 20rem 0;
+  padding: 7rem;
   background-image: linear-gradient(
       to right bottom,
       rgba(46, 64, 122, 0.25),
@@ -183,15 +187,60 @@ html {
   margin-top: -10rem;
   transform: skewY(-5deg);
 }
+
+#four-cards {
+  transform: skewY(5deg);
+  padding: 10rem 1rem;
+}
+
+.col-four {
+  padding-left: 10rem;
+}
+.card-title-four {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.card-text-four {
+  font-size: 2rem;
+  text-align: center;
+  font-weight: 600;
+}
+
+.card {
+  background-color: #f0f0f0 !important;
+  padding: 2rem 2rem;
+  width: 100%;
+  height: 350px;
+  margin: 2rem;
+  margin-left: 0.5rem;
+}
+.card:hover {
+  transform: translateY(-0.5rem);
+  box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.21);
+}
+.card-img-top-four {
+  width: 100%;
+  height: 250px;
+}
+
 /* ----------- SECTION 3 -- CHICAGO LANDSCAPE -----------> */
+/* ----------- HELP WITH BACKGROUND COLOR */
+
 /* ----------- SECTION 4 -----------> */
+#section4 {
+  margin-top: -10vh;
+  background-color: #f0f0f0;
+}
 
 .profile-projects {
   color: rgba(8, 28, 76, 0.8);
   font-weight: 800;
-  font-size: 7rem;
-  text-align: center;
-  padding: 3rem;
+  font-size: 5rem;
+  text-align: center !important;
+  /* background-color: khaki; */
+  padding: 15rem;
+  margin-bottom: -10vh;
 }
 
 .profile-projects:hover {
@@ -199,12 +248,12 @@ html {
   text-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.21);
 }
 
-.cards-to-play {
-  padding: 5rem;
+.cards {
+  margin: 3rem;
 }
 
-.col {
-  padding: 2rem;
+.cards-to-play {
+  padding: 5rem;
 }
 
 .card-img-top {
@@ -222,6 +271,7 @@ html {
 .card-footer {
   text-align: center;
   font-size: 2rem;
+  font-weight: 600;
 }
 
 .card-title {
