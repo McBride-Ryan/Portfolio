@@ -88,7 +88,7 @@ html {
 /* ----------- SECTION 1 ------ HEADER -----------> */
 #header {
   height: 99.5vh;
-  background-image: url("https://img.itch.zone/aW1hZ2UvNTA4MzgwLzI2MzY1NTAuZ2lm/original/xtkEQm.gif");
+  background-image: url("./sky.gif");
   background-size: cover;
   position: static;
 }
