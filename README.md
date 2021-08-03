@@ -1,7 +1,7 @@
 # Ryan McBride's Portfolio
 
 ### Description 
-Welcome to my page! I started out as a self taught programmer and underwent Bootcamp with MITxPRO.
+Welcome to my page! I started out as a self taught programmer and went Bootcamp at MITxPRO.
 
 ### Usage 
 There is no need to install anything. It is a simple site that should take you through the different features it has to offer!
