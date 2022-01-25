@@ -101,7 +101,6 @@ html {
 .heading-text {
   color: #fff;
   text-shadow: 1px 1px 20px black;
-  position: static;
 }
 
 .header-name {
@@ -111,7 +110,6 @@ html {
   font-weight: 350;
   letter-spacing: 0.5rem;
   animation: leftIn 0.8s ease-out;
-  position: static;
 }
 
 .header-title {
@@ -128,9 +126,7 @@ html {
 
 .header-content {
   text-align: center;
-  position: static;
-  left: 50%;
-  transform: translateY(100%);
+  padding: 15%;
 }
 
 #button {
