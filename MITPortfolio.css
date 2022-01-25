@@ -1,5 +1,3 @@
-
-
 /* ----------- LET'S TALK ABOUT BEING RESPONSI(VENESS)BILITY ----------- */
 html {
   font-size: 62.5%;
@@ -183,7 +181,6 @@ html {
 /* ----------- SECTION 2 -----------> */
 /* ----------- SECTION 3 -- CHICAGO LANDSCAPE -----------> */
 #section3 {
-  padding: 2rem;
   background-image: linear-gradient(
       to right bottom,
       rgba(46, 64, 122, 0.25),
@@ -193,16 +190,18 @@ html {
   background-size: cover;
   margin-top: -10rem;
   transform: skewY(-5deg);
+  height: auto;
+  padding: 5rem;
 }
 
 #four-cards {
   transform: skewY(5deg);
-  padding: 10rem 1rem;
+  margin: auto;
 }
 
-.col-four {
+/* .col-four {
   padding-left: 10rem;
-}
+} */
 .card-title-four {
   font-size: 3rem;
   text-align: center;
@@ -216,14 +215,11 @@ html {
 
 .card {
   background-color: #f0f0f0 !important;
-  padding: 2rem 2rem;
   width: 100%;
-  height: 350px;
-  margin: 2rem;
-  margin-left: 0.5rem;
+  height: auto;
 }
 .card:hover {
-  transform: translateY(-0.5rem);
+  transform: translateY(-0rem);
   box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.21);
 }
 .card-img-top-four {
@@ -389,4 +385,3 @@ html {
   text-align: center;
 }
 /* ----------- FOOTER -----------> */
-
